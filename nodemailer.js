@@ -5,15 +5,15 @@ const transporter = nodemailer.createTransport({
     port: 465,
     secure:true,
     auth: {
-        user: 'opoveshcheniya.zhkkh@mail.ru',
-        pass: 'GFqFcNRD5LjztyFpR9j7'
+        user: 'mavlikhanov2002@mail.ru',
+        pass: '03KQT1Kzn5fZEVbChmjA'
         //GFqFcNRD5LjztyFpR9j7 r2IYPUpa2(ei
     },
     tls: {
         rejectUnauthorized: false
     }
 },{
-    from:'sdf <opoveshcheniya.zhkkh@mail.ru>',
+    from:'sdf mavlikhanov2002@mail.ru',
 },)
 
 const mailer = message => {
