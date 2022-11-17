@@ -2,7 +2,7 @@ const {Event, Push, Users} = require("../models/model");
 const {connectionString} = require("pg/lib/defaults");
 
 class PushService {
-    // get event_name and push description
+   
     async getPushes (eventName) {
         const pushesEvent = await Event.findOne({where:{name:eventName}}).then(events => {
             if (!events) return false
